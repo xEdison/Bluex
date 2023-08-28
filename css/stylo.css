@@ -1,0 +1,824 @@
+                                        * {
+                                            padding: 0;
+                                            margin: 0;
+                                            box-sizing: border-box;
+                                            font-family: Arial, Helvetica, sans-serif
+                                        }
+                                        
+                                        header {
+                                            background-color: rgb(30, 23, 47);
+                                            padding: 18px;
+                                        }
+                                        
+                                        header img {
+                                            position: absolute;
+                                            left: 20pc;
+                                        }
+                                        
+                                        nav {
+                                            display: flex;
+                                            width: 100%;
+                                            height: 60px;
+                                            justify-content: flex-end;
+                                            color: #fff;
+                                        }
+                                        
+                                        nav ul {
+                                            margin-right: 300px;
+                                            display: flex;
+                                        }
+                                        
+                                        nav ul li {
+                                            list-style: none;
+                                        }
+                                        
+                                        nav ul li a {
+                                            text-decoration: none;
+                                            color: #ffff;
+                                            margin: 25px;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        li {
+                                            position: relative;
+                                            top: 1.1pc;
+                                        }
+                                        
+                                        header button {
+                                            position: relative;
+                                            height: 50px;
+                                            background: linear-gradient(100deg, rgb(158, 23, 189), rgb(42, 143, 226));
+                                            top: -0.7pc;
+                                            border-radius: 4px;
+                                        }
+                                        
+                                        .cuerpo {
+                                            height: 44pc;
+                                            background-image: url('../images/hojasFondo\ \(2\).jpg');
+                                        }
+                                        
+                                        .entro {
+                                            background-color: rgb(48, 20, 75);
+                                            display: flex;
+                                            height: 702px;
+                                            width: 950px;
+                                            align-content: stretch;
+                                            color: white;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .entro p {
+                                            position: relative;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            width: 570px;
+                                            top: 10px;
+                                            left: 11pc;
+                                            font-size: 24px;
+                                        }
+                                        
+                                        .entro h1 {
+                                            font-size: 60px;
+                                        }
+                                        
+                                        .entro img {
+                                            position: absolute;
+                                            top: 13pc;
+                                            height: 530px;
+                                            left: 1100px;
+                                        }
+                                        
+                                        .contenedor {
+                                            position: relative;
+                                            top: 5pc;
+                                            right: 1.8pc;
+                                            border: 2px solid rgb(131, 121, 121);
+                                            border-radius: 4px;
+                                            padding: 3px;
+                                            left: 81px;
+                                        }
+                                        
+                                        button {
+                                            margin: 5px;
+                                        }
+                                        
+                                        .boton-blanco {
+                                            background-color: rgb(255, 255, 255);
+                                            color: rgb(247, 93, 93);
+                                            height: 50px;
+                                            width: 190px;
+                                            font-size: 20px;
+                                            border-radius: 4px;
+                                        }
+                                        
+                                        .boton-normal {
+                                            background-color: rgb(48, 20, 75);
+                                            color: white;
+                                            height: 50px;
+                                            width: 160px;
+                                            font-size: 20px;
+                                            border: 2px solid white;
+                                            border-radius: 4px;
+                                        }
+                                        
+                                        .alpha img {
+                                            height: 30vh;
+                                            width: 25vw;
+                                        }
+                                        
+                                        .alpha {
+                                            display: flex;
+                                            height: 60vh;
+                                            width: 99.2vw;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .laptop {
+                                            position: relative;
+                                            margin: 200px;
+                                            top: 70px;
+                                        }
+                                        
+                                        .laptop h2 {
+                                            color: #f41a8c;
+                                            font-size: 50px;
+                                        }
+                                        
+                                        .material-symbols-outlined {
+                                            color: #ee3293;
+                                            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48,
+                                        }
+                                        
+                                        .img {
+                                            position: relative;
+                                            margin: -50px;
+                                            top: 70px;
+                                        }
+                                        
+                                        .laptop h3 {
+                                            color: #f41a8c;
+                                            font-size: 40px
+                                        }
+                                        
+                                        .laptop p {
+                                            font-size: 20px;
+                                            width: 600px;
+                                        }
+                                        
+                                        .laptop li {
+                                            font-size: 20px;
+                                            list-style: none;
+                                        }
+                                        
+                                        .alpha h1 {
+                                            position: relative;
+                                            top: -15pc;
+                                            left: 42pc;
+                                            color: #f41a8c;
+                                            font-size: 60px;
+                                            padding: 0px 0px 0px 100px;
+                                        }
+                                        
+                                        .end {
+                                            background-color: #20142c;
+                                            width: 100%;
+                                            height: 1020px;
+                                        }
+                                        
+                                        .end h1 {
+                                            text-align: center;
+                                            color: #fff;
+                                        }
+                                        
+                                        .end p {
+                                            text-align: center;
+                                            color: #fff;
+                                        }
+                                        
+                                        .partes {
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .lite {
+                                            display: inline-flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            background-color: rgb(255, 255, 255);
+                                            height: 73.4vh;
+                                            width: 19vw;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .lite img {
+                                            margin: 20px;
+                                            width: 90px;
+                                        }
+                                        
+                                        .lite h1 {
+                                            color: #ee3293;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .lite h3 {
+                                            color: #20142c;
+                                            font-size: 30px;
+                                            font-weight: normal;
+                                        }
+                                        
+                                        .free {
+                                            margin: 20px;
+                                            display: flex;
+                                            height: 5vh;
+                                            width: 100%;
+                                            color: #20142c;
+                                            align-items: center;
+                                            justify-content: center;
+                                            background-color: #f0eeee;
+                                        }
+                                        
+                                        .free p {
+                                            position: relative;
+                                            font-size: 15px;
+                                            color: #20142c;
+                                            top: -10px;
+                                            left: 8px;
+                                            font-weight: normal;
+                                        }
+                                        
+                                        .lite ul li {
+                                            list-style: none;
+                                        }
+                                        
+                                        .text {
+                                            display: flex;
+                                            margin-top: 52px;
+                                        }
+                                        
+                                        .lite p {
+                                            color: #20142c;
+                                        }
+                                        
+                                        .stantard {
+                                            display: inline-flex;
+                                            margin: 0px 41px;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            background-color: rgb(255, 255, 255);
+                                            height: 73.4vh;
+                                            width: 19vw;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .stantard img {
+                                            margin: 20px;
+                                            width: 90px;
+                                        }
+                                        
+                                        .stantard h1 {
+                                            color: #ee3293;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .stantard h3 {
+                                            color: #20142c;
+                                            font-size: 30px;
+                                            font-weight: normal;
+                                        }
+                                        
+                                        .stantard ul li {
+                                            list-style: none;
+                                        }
+                                        
+                                        .stantard p {
+                                            color: #20142c;
+                                        }
+                                        
+                                        .ultimate {
+                                            display: inline-flex;
+                                            margin: 0px 1px;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            background-color: rgb(255, 255, 255);
+                                            height: 73.4vh;
+                                            width: 19vw;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .ultimate img {
+                                            margin: 20px;
+                                            width: 90px;
+                                        }
+                                        
+                                        .ultimate h1 {
+                                            color: #ee3293;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .ultimate h3 {
+                                            color: #20142c;
+                                            font-size: 30px;
+                                            font-weight: normal;
+                                        }
+                                        
+                                        .ultimate ul li {
+                                            list-style: none;
+                                        }
+                                        
+                                        .ultimate p {
+                                            color: #20142c;
+                                        }
+                                        
+                                        i {
+                                            position: relative;
+                                            right: 50px;
+                                        }
+                                        
+                                        .icon-list li {
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        .icon-list li i {
+                                            margin-right: 10px;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .red-icon {
+                                            color: #ee3293;
+                                        }
+                                        
+                                        .botones {
+                                            display: flex;
+                                            margin-top: 50px;
+                                            height: 7vh;
+                                            width: 100%;
+                                            background-color: #f0eeee;
+                                            align-items: center;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .primero {
+                                            height: 50px;
+                                            width: 170px;
+                                            font-size: 18px;
+                                            background: linear-gradient(100deg, rgb(243, 183, 183), #f00980);
+                                            border: #fff;
+                                            color: #f0eeee;
+                                            border-radius: 4px;
+                                        }
+                                        
+                                        .segundo {
+                                            height: 50px;
+                                            width: 170px;
+                                            font-size: 18px;
+                                            background-color: #20142c;
+                                            border: #fff;
+                                            color: #f0eeee;
+                                            border-radius: 4px;
+                                        }
+                                        
+                                        .ultimo {
+                                            height: 50px;
+                                            width: 170px;
+                                            font-size: 18px;
+                                            background-color: #20142c;
+                                            border: #fff;
+                                            color: #f0eeee;
+                                            border-radius: 4px;
+                                        }
+                                        
+                                        footer {
+                                            position: relative;
+                                            top: 52px;
+                                            padding: 40px;
+                                            text-align: center;
+                                            margin: 0 200px;
+                                        }
+                                        
+                                        .footer-content {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                        }
+                                        
+                                        .footer-left {
+                                            left: 200px;
+                                        }
+                                        
+                                        .footer-left p {
+                                            color: #969696;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        footer .redes {
+                                            position: relative;
+                                            top: -12px;
+                                            text-align: right;
+                                        }
+                                        
+                                        .horizontal-social-icons {
+                                            list-style: none;
+                                            padding: 0;
+                                            display: flex;
+                                            gap: 10px;
+                                        }
+                                        
+                                        .horizontal-social-icons li {
+                                            font-size: 24px;
+                                        }
+                                        
+                                        .horizontal-social-icons a {
+                                            text-decoration: none;
+                                            color: #333;
+                                        }
+                                        
+                                        .horizontal-social-icons a:hover {
+                                            color: #007bff;
+                                        }
+                                        
+                                        @media(max-width:1279px) {
+                                            header {
+                                                width: 100%;
+                                            }
+                                            header img {
+                                                position: absolute;
+                                                left: 5pc;
+                                            }
+                                            nav ul {
+                                                margin-right: 127px;
+                                                display: flex;
+                                            }
+                                            header button {
+                                                height: 39px;
+                                            }
+                                            .entro {
+                                                width: 643px;
+                                            }
+                                            .entro h1 {
+                                                position: relative;
+                                                right: 123px;
+                                            }
+                                            .entro p {
+                                                left: 52px;
+                                            }
+                                            .entro img {
+                                                top: 20pc;
+                                                height: 422px;
+                                                left: 751px;
+                                            }
+                                            .contenedor {
+                                                left: -37px;
+                                            }
+                                            .alpha {
+                                                width: 91.2vw;
+                                                height: 67vh;
+                                            }
+                                            .alpha h1 {
+                                                font-size: 44px;
+                                            }
+                                            .free {
+                                                margin: 1px;
+                                            }
+                                            .lite h1 {
+                                                position: relative;
+                                                top: -10px;
+                                            }
+                                            .stantard h1 {
+                                                position: relative;
+                                                top: -10px;
+                                            }
+                                            .ultimate h1 {
+                                                position: relative;
+                                                top: -10px;
+                                            }
+                                            i {
+                                                position: relative;
+                                                right: 19px;
+                                            }
+                                            footer {
+                                                top: 101px;
+                                                padding: 29px;
+                                                margin: 0 148px;
+                                            }
+                                            .footer-left p {
+                                                font-size: 19px;
+                                            }
+                                        }
+                                        
+                                        @media(max-width:988px) {
+                                            .laptop {
+                                                position: relative;
+                                                margin: 131px 56px 153px -71px;
+                                                top: 70px;
+                                            }
+                                        }
+                                        
+                                        @media(max-width:920px) {
+                                            header img {
+                                                left: 1pc;
+                                            }
+                                            nav ul {
+                                                margin-right: 93px;
+                                                display: flex;
+                                            }
+                                            .entro {
+                                                width: 436px;
+                                            }
+                                            .entro h1 {
+                                                position: relative;
+                                                top: -62px;
+                                                left: -90px;
+                                            }
+                                            .entro p {
+                                                top: -2pc;
+                                                left: -1px;
+                                                height: 60px;
+                                                width: 400px;
+                                            }
+                                            .contenedor {
+                                                top: 3pc;
+                                                left: -1pc;
+                                            }
+                                            .entro img {
+                                                left: 34pc;
+                                                height: 333px;
+                                                top: 333px;
+                                            }
+                                            .alpha {
+                                                width: 61.2vw;
+                                                height: 67vh;
+                                            }
+                                            .laptop {
+                                                position: relative;
+                                                margin: 197px;
+                                                top: 70px;
+                                                left: -35px;
+                                            }
+                                            .alpha h1 {
+                                                top: -15pc;
+                                            }
+                                            .laptop h2 {
+                                                position: relative;
+                                                left: 20px;
+                                            }
+                                            .laptop h2 {
+                                                font-size: 41px;
+                                                left: 54px;
+                                            }
+                                            .laptop p {
+                                                position: relative;
+                                                left: 55px;
+                                            }
+                                            .laptop h3 {
+                                                position: relative;
+                                                left: 54px;
+                                            }
+                                            li {
+                                                position: relative;
+                                                top: 1.1pc;
+                                                left: 94px;
+                                            }
+                                            .alpha img {
+                                                position: relative;
+                                                height: 19vh;
+                                                width: 25vw;
+                                                left: 92px;
+                                            }
+                                            .ultimate p {
+                                                color: #20142c;
+                                                top: -1px;
+                                            }
+                                            .stantard ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 14px;
+                                            }
+                                            .ultimate ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 14px;
+                                            }
+                                            .lite ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 14px;
+                                            }
+                                        }
+                                        
+                                        @media(max-width:768px) {
+                                            .laptop {
+                                                position: relative;
+                                                margin: 197px;
+                                                top: 70px;
+                                                left: -198px;
+                                            }
+                                            nav ul {
+                                                margin-right: 77px;
+                                                display: flex;
+                                            }
+                                            .laptop p {
+                                                font-size: 20px;
+                                                width: 373px;
+                                            }
+                                            .alpha h1 {
+                                                position: relative;
+                                                top: -15pc;
+                                                left: 35pc;
+                                                color: #f41a8c;
+                                                font-size: 60px;
+                                                padding: 0px 0px 0px 100px;
+                                            }
+                                            .alpha img {
+                                                position: relative;
+                                                height: 0px;
+                                            }
+                                            .stantard ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 10px;
+                                            }
+                                            .ultimate ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 10px;
+                                            }
+                                            .lite ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 10px;
+                                            }
+                                            footer {
+                                                top: 101px;
+                                                padding: 4px;
+                                                margin: -40px 148px;
+                                            }
+                                            .footer-left p {
+                                                font-size: 12px;
+                                            }
+                                        }
+                                        
+                                        @media(max-width:480px) {
+                                            .cuerpo img {
+                                                display: none;
+                                            }
+                                            nav ul {
+                                                position: relative;
+                                                margin-right: 12px;
+                                                top: 16px;
+                                                right: 160px;
+                                            }
+                                            header {
+                                                height: 214px;
+                                                width: 100%;
+                                            }
+                                            header img {
+                                                position: relative;
+                                                left: 9pc;
+                                            }
+                                            nav ul li a {
+                                                position: relative;
+                                                font-size: 10px;
+                                                margin: 15px;
+                                            }
+                                            nav ul li {
+                                                list-style: none;
+                                                margin: 7px;
+                                            }
+                                            .cuerpo {
+                                                height: 44pc;
+                                                background-image: url(../images/hojasFondo\ \(2\).jpg);
+                                            }
+                                            .entro {
+                                                width: 480px;
+                                            }
+                                            .alpha h1 {
+                                                position: relative;
+                                                top: -15pc;
+                                                left: 28pc;
+                                                color: #f41a8c;
+                                                font-size: 33px;
+                                                padding: 0px 0px 0px 100px;
+                                            }
+                                            .laptop {
+                                                left: -229px;
+                                            }
+                                            .laptop h2 {
+                                                font-size: 32px;
+                                                left: 192px;
+                                            }
+                                            .laptop p {
+                                                font-size: 17px;
+                                                width: 373px;
+                                                left: 172px;
+                                            }
+                                            .laptop h3 {
+                                                position: relative;
+                                                left: 133px;
+                                            }
+                                            li {
+                                                position: relative;
+                                                top: 1.1pc;
+                                                left: 170px;
+                                                margin: 18px;
+                                            }
+                                            .lite {
+                                                display: inline-flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                background-color: rgb(255, 255, 255);
+                                                height: 73.4vh;
+                                                width: 28vw;
+                                                border-radius: 10px;
+                                            }
+                                            .ultimate {
+                                                display: inline-flex;
+                                                margin: 0px 1px;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                background-color: rgb(255, 255, 255);
+                                                height: 73.4vh;
+                                                width: 25vw;
+                                                border-radius: 10px;
+                                            }
+                                            .stantard {
+                                                display: inline-flex;
+                                                margin: 0px 41px;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                background-color: rgb(255, 255, 255);
+                                                height: 73.4vh;
+                                                width: 28vw;
+                                                border-radius: 10px;
+                                            }
+                                            .icon-list li {
+                                                margin-bottom: -26px;
+                                            }
+                                            .botones {
+                                                display: flex;
+                                                margin-top: 50px;
+                                                height: 0vh;
+                                                width: 100%;
+                                                background-color: #f0eeee;
+                                                align-items: center;
+                                                justify-content: center;
+                                            }
+                                            .lite p {
+                                                font-size: 12px;
+                                                color: #20142c;
+                                            }
+                                            .ultimate p {
+                                                font-size: 12px;
+                                                color: #20142c;
+                                            }
+                                            .stantard p {
+                                                font-size: 12px;
+                                                color: #20142c;
+                                            }
+                                            .fa-star:before {
+                                                content: "\f005";
+                                                font-size: 10px;
+                                            }
+                                            .fa-check:before {
+                                                content: "\f00c";
+                                                font-size: 10px;
+                                            }
+                                            .fa-times:before {
+                                                content: "\f00d";
+                                                font-size: 10px;
+                                            }
+                                            .lite ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 9px;
+                                            }
+                                            .stantard ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 9px;
+                                            }
+                                            .ultimate ul li {
+                                                list-style: none;
+                                                left: 12px;
+                                                font-size: 7px;
+                                            }
+                                            .ultimate p {
+                                                font-size: 12px;
+                                                color: #20142c;
+                                            }
+                                            .horizontal-social-icons {
+                                                position: absolute;
+                                                list-style: none;
+                                                padding: 0;
+                                                display: flex;
+                                                gap: 0px;
+                                                left: -356px;
+                                            }
+                                            .footer-left p {
+                                                position: relative;
+                                                font-size: 12px;
+                                                top: -13px;
+                                            }
+                                        }
